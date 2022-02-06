@@ -1,0 +1,17 @@
+{
+  "name": "client",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@babylonjs/core": "5.0.0-beta.2",
+    "@babylonjs/gui": "5.0.0-beta.2",
+    "@babylonjs/inspector": "5.0.0-beta.2",
+    "@babylonjs/loaders": "5.0.0-beta.2",
+    "@babylonjs/materials": "5.0.0-beta.2",
+    "core": "*",
+    "earcut": "2.2.3"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}

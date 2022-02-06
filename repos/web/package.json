@@ -1,0 +1,26 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "ANALYZE=true next build",
+    "dev": "yarn cache clean && yarn delete .next && next dev",
+    "delete": "../../node_modules/rimraf/bin.js",
+    "start": "next start",
+    "restart": "yarn build && yarn start"
+  },
+  "dependencies": {
+    "client": "*",
+    "core": "*",
+    "next": "10.2.3"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "7.12.12",
+    "@next/bundle-analyzer": "10.2.3",
+    "next-compose-plugins": "2.2.1",
+    "next-transpile-modules": "7.3.0"
+  }
+}
