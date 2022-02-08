@@ -7,6 +7,8 @@ It is suitable for small projects, and scales to large apps without suffering pe
 For more details, please read this guide on how to optimize your 
 [Babylon + Next.js production build for SEO and Blazing Fast Page Load Speed](https://3designer.app/best/babylon-nextjs-setup).
 
+![ui](./repos/web/public/images/scene.jpg)
+
 
 ### Key Features:
 
