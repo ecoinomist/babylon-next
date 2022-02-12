@@ -49,10 +49,10 @@ module.exports = withPlugins(
     /**
      * @see: https://nextjs.org/docs/advanced-features/i18n-routing
      */
-    i18n: {
-      locales: ['en', 'fr', 'ru'],
-      defaultLocale: 'en',
-    },
+    // i18n: {
+    //   locales: ['en', 'fr', 'ru'],
+    //   defaultLocale: 'en',
+    // },
     /**
      * @see: https://nextjs.org/docs/api-reference/next.config.js/rewrites
      */
