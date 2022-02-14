@@ -17,7 +17,7 @@
     "test": "yarn scan && jest",
     "reset": "yarn clear && yarn cache clean && yarn",
     "clear": "yarn delete yarn.lock node_modules repos/core/node_modules repos/web/node_modules",
-    "delete": "./node_modules/rimraf/bin.js"
+    "delete": "rimraf"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "5.11.0",

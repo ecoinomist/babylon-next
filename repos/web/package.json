@@ -5,7 +5,7 @@
   "scripts": {
     "build": "ANALYZE=true next build",
     "dev": "yarn cache clean && yarn delete .next && next dev",
-    "delete": "../../node_modules/rimraf/bin.js",
+    "delete": "rimraf",
     "start": "next start",
     "restart": "yarn build && yarn start"
   },
